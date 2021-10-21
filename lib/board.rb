@@ -3,17 +3,25 @@ include Enumerable
 attr_accessor :tic_tac_case
 # initialize l'affichage du morpion
   def initialize
-    @a1 = BoardCase.new    @a1 = 0
-    @a2 = BoardCase.new    @a2 = 1
-    @a3 = BoardCase.new    @a3 = 2
-    @b1 = BoardCase.new    @b1 = 3
-    @b2 = BoardCase.new    @b2 = 4
-    @b3 = BoardCase.new    @b3 = 5
-    @c1 = BoardCase.new    @c1 = 6
-    @c2 = BoardCase.new    @c2 = 7
-    @c3 = BoardCase.new    @c3 = 8
+    @a1 = BoardCase.new
+    @a2 = BoardCase.new
+    @a3 = BoardCase.new
+    @b1 = BoardCase.new
+    @b2 = BoardCase.new
+    @b3 = BoardCase.new
+    @c1 = BoardCase.new
+    @c2 = BoardCase.new
+    @c3 = BoardCase.new
 
-
+    @a1 = 0
+    @a2 = 1
+    @a3 = 2
+    @b1 = 3
+    @b2 = 4
+    @b3 = 5
+    @c1 = 6
+    @c2 = 7
+    @c3 = 8
 
     @tic_tac_case = [@a1, @a2, @a3, @b1, @b2, @b3, @c1, @c2, @c3]
   end
